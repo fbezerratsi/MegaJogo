@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+        <?php
+
+	//prompt function
+	function prompt($prompt_msg){
+		echo("<script type='text/javascript'> var answer = prompt('".$prompt_msg."'); </script>");
+		
+		$answer = "<script type='text/javascript'> document.write(answer); </script>";
+		return($answer);
+	}
+
+	//program
+	$prompt_msg = "Please type your name.";
+	$name = prompt($prompt_msg);
+	
+	$output_msg = "Hello there ".$name."!";
+	echo($output_msg);
+	
+?>
+        
+    </body>
+</html>

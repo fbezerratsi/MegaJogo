@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/01/2014, 18:03:00
+    Author     : Felipe
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    background-color: #6ED384;
+    width: 100%;
+    height: 50px;
+}
+#saudacao {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    color: white;
+}
+
+#nomeDaRodada {
+    
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+table h2 {
+    text-align: center;
+}
+
+#formMega {
+    margin: 10px;
+}
+#formMega table td{
+    border: 1px solid silver;
+    padding: 10px;
+}
+
+.numeros {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.botao {
+    width: 200px;
+    height: 50px;
+}
+
+#rodadaExistente {
+    display: none;
+}
+#cadastroRodada {
+    display: none;
+}
+
+#formCadastroPremio table{
+    border: 1px solid silver;
+}
+
+#formCadastroPremio {
+    margin: 10px;
+}
